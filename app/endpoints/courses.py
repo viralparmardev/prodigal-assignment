@@ -1,7 +1,7 @@
 from flask_restful import Resource
 
-from common.database import db
-from common.config import STUDENTS_COLLECTION, GRADES_COLLECTION
+from app.common.database import db
+from app.common.config import STUDENTS_COLLECTION, GRADES_COLLECTION
 
 
 class GetDetailedScoresForAStudentInACourse(Resource):

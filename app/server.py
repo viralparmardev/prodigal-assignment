@@ -2,9 +2,9 @@ from flask import Flask
 from flask_restful import Api
 
 
-from endpoints.courses import GetDetailedScoresForAStudentInACourse, GetDetailedScoresForACourseOfAStudent
-from endpoints.students import GetAllStudents, GetListOfClassesForAStudent, GetAggregatePerformanceInEachClass
-from endpoints.classes import GetAllClasses, GetListOfStudentsTakingACourse, GetAggregatePerformanceOfEachStudent, \
+from .endpoints.courses import GetDetailedScoresForAStudentInACourse, GetDetailedScoresForACourseOfAStudent
+from .endpoints.students import GetAllStudents, GetListOfClassesForAStudent, GetAggregatePerformanceInEachClass
+from .endpoints.classes import GetAllClasses, GetListOfStudentsTakingACourse, GetAggregatePerformanceOfEachStudent, \
     GetGradesForAParticularCourse
 
 

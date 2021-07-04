@@ -1,4 +1,4 @@
-from common.config import STUDENTS_COLLECTION, GRADES_COLLECTION
+from app.common.config import STUDENTS_COLLECTION, GRADES_COLLECTION
 
 
 def func_q1(db):
